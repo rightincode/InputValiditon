@@ -11,11 +11,11 @@
                HorizontalOptions="Center" />
             <StackLayout Orientation="Horizontal">
                 <Label x:Name="firstNameLbl" Text="First Name" TextColor="Blue" FontSize="Large" />
-                <Entry x:Name="firstName" Placeholder="Enter First Name" FontSize="Large" Text="{Binding CurrentAppUser.firstName, Mode=TwoWay}" />
+                <Entry x:Name="firstName" Placeholder="Enter First Name" FontSize="Large" Text="{Binding FirstName, Mode=TwoWay}" />
             </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Label x:Name="lastNameLbl" Text="Last Name" TextColor="Blue" FontSize="Large" />
-                <Entry x:Name="lastName" Placeholder="Enter Last Name" FontSize="Large" Text="{Binding CurrentAppUser.lastName, Mode=TwoWay}" />
+                <Entry x:Name="lastName" Placeholder="Enter Last Name" FontSize="Large" Text="{Binding LastName, Mode=TwoWay}" />
             </StackLayout>
             <Button x:Name="saveAppUserBtn" Text="Save User" />
         </StackLayout>
