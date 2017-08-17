@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:InputValidationNS"
+             x:Class="InputValidationNS.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Welcome to Xamarin Forms!" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="firstNameLbl" Text="First Name" TextColor="Blue" FontSize="Large" />
+                <Entry x:Name="firstName" Placeholder="Enter First Name" FontSize="Large" Text="{Binding CurrentAppUser.firstName, Mode=TwoWay}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="lastNameLbl" Text="Last Name" TextColor="Blue" FontSize="Large" />
+                <Entry x:Name="lastName" Placeholder="Enter Last Name" FontSize="Large" Text="{Binding CurrentAppUser.lastName, Mode=TwoWay}" />
+            </StackLayout>
+            <Button x:Name="saveAppUserBtn" Text="Save User" />
+        </StackLayout>
+    </ContentPage.Content>   
+
+</ContentPage>

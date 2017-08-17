@@ -152,9 +152,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\InputValiditon\InputValiditon.csproj">
-      <Project>{8cd31533-53a4-4fc3-a19d-44ea0abd75a5}</Project>
-      <Name>InputValiditon</Name>
+    <ProjectReference Include="..\..\InputValidationNS\InputValidationNS.csproj">
+      <Project>{87923d94-9dba-424f-a814-ddc367dc95a4}</Project>
+      <Name>InputValidationNS</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

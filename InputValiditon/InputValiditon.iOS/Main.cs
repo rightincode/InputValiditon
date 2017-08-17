@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace InputValiditon.iOS
+namespace InputValiditonNS.iOS
 {
     public class Application
     {
